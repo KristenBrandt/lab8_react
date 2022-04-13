@@ -1,21 +1,12 @@
-#body-container{
-  width: 100%;
-  height: calc(100vh - 0px);
+body{
   background-color: black;
+  text-align: center;
+  background: black;
   color: white;
-
+  font-size: larger;
 }
 
-#container{
-  display: grid;
-  grid-template-columns: 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px 150px 150px; 
-  column-gap: 10px;
-  row-gap: 10px;
-  background-color: black;
-  color: black;
-  justify-content: center;
-}
+
 
 
 

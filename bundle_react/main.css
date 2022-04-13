@@ -1,0 +1,83 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+body{
+  background-color: black;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: larger;
+}
+
+
+
+
+
+
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/headerNameDescription.css ***!
+  \********************************************************************************************/
+.font-white-xl{
+  color: white;
+  background-color: black;
+  font-size: large;
+}
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/game.css ***!
+  \***************************************************************************/
+
+
+.card{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background-color: white;
+  border: 1px solid black;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  perspective: 500px;
+}
+
+.card:active {
+  transform: scale(0.95);
+  transition: transform .5s;
+  transform: rotateY(180deg);
+}
+
+.card:hover {
+  transform: scale(0.95);
+  transition: transform .5s;
+  transform: rotateY(180deg);
+}
+
+
+.card.flip {
+  transform: rotateY(180deg);
+}
+
+
+.front-face,
+.back-face {
+  position: absolute;
+  backface-visibility: hidden;
+
+}
+
+.front-face {
+  transform: rotateY(180deg);
+
+}
+
+.csscontainer{
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px; 
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: black;
+  color: black;
+  justify-content: center;
+}
+
+
