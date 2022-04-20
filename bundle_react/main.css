@@ -42,7 +42,7 @@ body{
 .card:active {
   transform: scale(0.95);
   transition: transform .5s;
-  transform: rotateY(180deg);
+  
 }
 
 .card:hover {
@@ -50,6 +50,7 @@ body{
   transition: transform .5s;
   transform: rotateY(180deg);
 }
+
 
 
 .card.flip {
